@@ -14,11 +14,12 @@ The API is containerized with Docker to simplify deployment and environment mana
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+To run this application, you'll need:
 
-- Docker
+- **Docker**: You must have Docker installed on your machine to build and run the containerized application. [Install Docker](https://docs.docker.com/get-docker/)
 
-- Docker Compose
+- **Docker Compose** (optional): For ease of running the application with predefined settings. [Install Docker Compose](https://docs.docker.com/compose/install/) (only if you plan to use Docker Compose instead of plain Docker commands)
+
 
 ## Installation
 
@@ -27,6 +28,8 @@ Clone the repository:
 ```bash
 
 git clone https://github.com/jazzpujols34/CurrencyExchangeService-API.git
+```
 
+```bash
 cd CurrencyExchangeService-API
 ```
