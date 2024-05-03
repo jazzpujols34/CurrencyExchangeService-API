@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template
+from flask import Flask, request, jsonify
 import decimal
 
 app = Flask(__name__)
@@ -27,10 +27,6 @@ class CurrencyExchangeService:
             return f"{result:,.2f}", "success"
         except Exception as e:
             return None, str(e)
-        
-@app.route('/')
-def index():
-	return render_template('index.html')
 
 @app.route('/convert')
 def convert():
